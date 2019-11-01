@@ -1,0 +1,938 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none; 
+    margin-right: 52px;
+    color: black;
+}
+
+h1 {
+    font: bold 14px/43px Cabin;
+    color: #363636;
+}
+
+h2 {
+    font: bold 28px/44px Cabin;
+    color: #363636;
+}
+
+img {
+    width: 100%;
+    max-width: 1000%;
+}
+
+#container {
+    background: url(image/background.jpg);
+    margin: 3%;
+    width: 94%;
+}
+
+#header .menu-btn {
+	display: inline-block;
+	margin-top: 104px;
+	margin-left: 91px;
+    float: left;
+}
+
+#header .logo {
+	display: inline-block;
+    position: absolute;
+    margin-left: 885px;
+    margin-right: 548px;
+    font: bold 48px/44px Cabin;
+	color:  #363636;
+	padding-top: 92px;
+}
+
+#header .menu {
+	display: inline-block;
+	padding-top: 80px;
+	font: 18px/72px Cabin;
+	margin-right: 106px;
+    float: right;
+}
+
+#showcase .info {
+	padding-top: 235px;
+	margin-left: 1146px;
+}
+
+#showcase .presentation {
+	margin-top: 90px;
+	margin-left: 360px;
+}
+
+#dots {
+  list-style: none;
+  margin-top: 120px;
+  margin-bottom: 125px;
+  text-align: center;
+
+}
+#dots li {
+  display: inline-block;
+  border-radius: 10px;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background: #737373;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+#dots li.active {
+  width: 15px;
+  height: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+  vertical-align: middle;
+}
+
+#content {
+	padding-bottom: 50px;
+	overflow: hidden;
+}
+#rightcol {
+	width: 220px;
+	float: right;
+	margin-right: 100px;
+}
+
+#rightcol .button {
+    background-color: white;
+    border: 2px solid #cfcfcf;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font: bold 21px/44px Cabin;
+    color: #363636;
+    cursor: pointer;
+    width: 220px;
+    height: 80px;
+}
+
+#main {
+	overflow: hidden;
+	margin-right: 230px;
+}
+
+#leftcol {
+	width: 380px;
+	float: left;
+    font: bold 28px/44px Cabin;
+    margin-left: 650px;
+    text-align: right;
+}
+
+#centercol {
+	overflow: hidden;
+	margin-right: 260px;
+	margin-top: 10px;
+}
+
+#centercol .content {
+    font: 16px/27px Cabin;
+    color: #8e8e8e;
+}
+
+#centercol .qwe {
+    font: bold 14px/43px Cabin;
+    color: #363636;
+    margin-top: 50px;
+}
+
+@media (max-width: 2500px) {
+    body {
+    	width: 100%;
+    }
+
+
+    a {
+        margin-right: 40px;    
+    }
+
+    h1 {
+        font: bold 20px/43px Cabin;
+        color: #363636;
+    }
+
+    h2 {
+        font: bold 38px/44px Cabin;
+        color: #363636;
+    }
+
+    #container {
+        margin: 3%;
+        width: 94%;
+        height: 1400px;
+    }
+
+    #header .menu-btn {
+	    margin-top: 4%;
+	    margin-left: 4%;
+    }  
+
+    #header .menu-btn img {
+	    width: 60%;
+    } 
+
+    #header .logo {
+        font: bold 56px/44px Cabin;
+	    padding-top: 4%;
+	    margin-left: 38%;
+    }
+
+    #header .menu {	    
+	    padding-top: 4%;
+	    font: 20px/72px Cabin;
+	    margin-left: 10%;
+	    margin-right: 86px;
+    }
+
+    #showcase .info {
+	    padding-top: 10%;
+	    margin-left: 51%;
+    }
+
+    #showcase .info h1 {
+    	margin-bottom: 3%;
+    }
+
+    #showcase .presentation {
+	    padding-left: 0;
+	    margin-left: 15%;
+	    margin-top: 5%;
+    }
+
+    #showcase .presentation img {
+    	width: 100%;
+    	
+    }
+    	
+    #dots {
+        margin-top: 35px;
+    }
+
+    #rightcol {
+    	float: right;
+	    width: 220px;
+	    margin-right: 5%;
+	    margin-top: 20px;	    
+    } 
+
+    #rightcol .button {
+        border: 2px solid #cfcfcf;
+        font: bold 18px/44px Cabin;
+        width: 220px;
+        height: 80px;
+    }
+
+    #main {
+	    margin-right: 0;
+
+    }
+
+    #leftcol {
+    	float: left;
+        font: bold 30px/40px Cabin;
+        text-align: right;
+        margin-left: 34%;
+        width: 380px;
+        margin-right: 30px;
+    }
+
+    #centercol {   
+	    margin-top: 5px;
+	    margin-right: 1%;
+	    padding-left: 40px;
+    }
+
+    #centercol .content {
+        font: 18px/26px Cabin;
+    }
+
+    #centercol .info {
+        font: bold 18px/43px Cabin;
+        margin-top: 4%;
+    }
+}
+
+
+@media (max-width: 1920px) {
+    body {
+    	width: 100%;
+    }
+
+
+    a {
+        margin-right: 30px;    
+    }
+
+    #container {
+        margin: 3%;
+        width: 94%;
+        height: 1100px;
+    }
+
+    #header .menu-btn {
+	    margin-top: 4%;
+	    margin-left: 4%;
+    }  
+
+    #header .menu-btn img {
+	    width: 60%;
+    } 
+
+    #header .logo {
+        font: bold 44px/44px Cabin;
+	    padding-top: 4%;
+	    margin-left: 36%;
+    }
+
+    #header .menu {	    
+	    padding-top: 4%;
+	    font: 18px/72px Cabin;
+	    margin-left: 10%;
+	    margin-right: 86px;
+    }
+
+    #showcase .info {
+	    padding-top: 10%;
+	    margin-left: 49%;
+    }
+
+    #showcase .presentation {
+	    padding-left: 0;
+	    margin-left: 15%;
+	    margin-top: 5%;
+    }
+
+    #showcase .presentation img {
+    	width: 100%;
+    	
+    }
+    	
+    #dots {
+        margin-top: 35px;
+    }
+
+    #rightcol {
+    	float: right;
+	    width: 220px;
+	    margin-right: 30px;
+	    margin-top: 20px;	    
+    } 
+
+    #rightcol .button {
+        border: 2px solid #cfcfcf;
+        font: bold 18px/44px Cabin;
+        width: 165px;
+        height: 60px;
+    }
+
+    #main {
+	    margin-right: 0;
+
+    }
+
+    #leftcol {
+    	float: left;
+        font: bold 24px/30px Cabin;
+        text-align: right;
+        margin-left: 34%;
+        width: 280px;
+        margin-right: 30px;
+    }
+
+    #centercol {   
+	    margin-top: 5px;
+	    margin-right: 1%;
+	    padding-left: 40px;
+    }
+
+    #centercol .content {
+        font: 16px/23px Cabin;
+    }
+
+    #centercol .info {
+        font: bold 16px/43px Cabin;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1680px) {
+    body {
+    	width: 100%;
+    }
+
+
+    a {
+        margin-right: 30px;    
+    }
+
+    #container {
+        margin: 3%;
+        width: 94%;
+        height: 970px;
+    }
+
+    #header .menu-btn {
+	    margin-top: 4%;
+	    margin-left: 4%;
+    }  
+
+    #header .menu-btn img {
+	    width: 60%;
+    } 
+
+    #header .logo {
+        font: bold 44px/44px Cabin;
+	    padding-top: 4%;
+	    margin-left: 36%;
+    }
+
+    #header .menu {	    
+	    padding-top: 4%;
+	    font: 18px/72px Cabin;
+	    margin-left: 10%;
+	    margin-right: 86px;
+    }
+
+    #showcase .info {
+	    padding-top: 140px;
+	    margin-left: 49%;
+    }
+
+    #showcase .presentation {
+	    padding-left: 0;
+	    margin-left: 15%;
+	    margin-top: 5%;
+    }
+
+    #showcase .presentation img {
+    	width: 100%;
+    	
+    }
+    	
+    #dots {
+        margin-top: 35px;
+    }
+
+    #rightcol {
+    	float: right;
+	    width: 220px;
+	    margin-right: 30px;
+	    margin-top: 20px;	    
+    } 
+
+    #rightcol .button {
+        border: 2px solid #cfcfcf;
+        font: bold 18px/44px Cabin;
+        width: 165px;
+        height: 60px;
+    }
+
+    #main {
+	    margin-right: 0;
+
+    }
+
+    #leftcol {
+    	float: left;
+        font: bold 22px/28px Cabin;
+        text-align: right;
+        margin-left: 32%;
+        width: 280px;
+        margin-right: 30px;
+    }
+
+    #centercol {   
+	    margin-top: 5px;
+	    margin-right: 1%;
+	    padding-left: 40px;
+    }
+
+    #centercol .content {
+        font: 14px/22px Cabin;
+    }
+
+    #centercol .info {
+        font: bold 16px/43px Cabin;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1399px) {
+    body {
+    	width: 100%;
+    }
+
+
+    a {
+        margin-right: 25px;    
+    }
+
+    h1 {
+        font: bold 14px/43px Cabin;
+        color: #363636;
+    }
+
+    h2 {
+        font: bold 22px/36px Cabin;
+        color: #363636;
+    }
+
+    #container {
+        margin: 3%;
+        width: 94%;
+        height: 765px;
+    }
+
+    #header .menu-btn {
+	    margin-top: 30px;
+	    margin-left: 30px;
+    }  
+
+    #header .menu-btn img {
+	    width: 30%;
+    } 
+
+    #header .logo {
+        font: bold 34px/44px Cabin;
+	    padding-top: 32px;
+	    margin-left: 36%;
+    }
+
+    #header .menu {	    
+	    padding-top: 25px;
+	    font: 14px/72px Cabin;
+	    margin-left: 10%;
+	    margin-right: 86px;
+    }
+
+    #showcase .info {
+	    padding-top: 10%;
+	    margin-left: 50%;
+    }
+
+    #showcase .presentation {
+	    padding-left: 0;
+	    margin-left: 15%;
+	    margin-top: 5%;
+    }
+
+    #showcase .presentation img {
+    	width: 100%;
+    	
+    }
+    	
+    #dots {
+        margin-top: 35px;
+    }
+
+    #rightcol {
+    	float: right;
+	    width: 110px;
+	    margin-right: 30px;
+	    margin-top: 20px;	    
+    } 
+
+    #rightcol .button {
+        border: 1px solid #cfcfcf;
+        font: bold 11px/34px Cabin;
+        width: 110px;
+        height: 40px;
+    }
+
+    #main {
+	    margin-right: 0;
+
+    }
+
+    #leftcol {
+    	float: left;
+        font: bold 16px/28px Cabin;
+        text-align: right;
+        margin-left: 22%;
+        width: 280px;
+        margin-right: 30px;
+    }
+
+    #centercol {   
+	    margin-top: 5px;
+	    margin-right: 1%;
+	    padding-left: 40px;
+    }
+
+    #centercol .content {
+        font: 12px/22px Cabin;
+    }
+
+    #centercol .info {
+        font: bold 12px/43px Cabin;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 1199px) {
+    body {
+    	width: 100%;
+    }
+
+
+    a {
+        margin-right: 15px;    
+    }
+
+    h2 {
+        font: bold 20px/32px Cabin;
+        color: #363636;
+    }
+
+    #container {
+        margin: 3%;
+        width: 94%;
+        height: 775px;
+    }
+
+    #header .menu-btn {
+	    margin-top: 30px;
+	    margin-left: 30px;
+    }  
+
+    #header .menu-btn img {
+	    width: 30%;
+    } 
+
+    #header .logo {
+        font: bold 34px/44px Cabin;
+	    padding-top: 32px;
+	    margin-left: 36%;
+    }
+
+    #header .menu {	    
+	    padding-top: 25px;
+	    font: 14px/72px Cabin;
+	    margin-left: 10%;
+	    margin-right: 86px;
+    }
+
+    #showcase .info {
+	    padding-top: 140px;
+	    margin-left: 50%;
+    }
+
+    #showcase .presentation {
+	    padding-left: 0;
+	    margin-left: 15%;
+	    margin-top: 5%;
+    }
+
+    #showcase .presentation img {
+    	width: 100%;
+    	
+    }
+    	
+    #dots {
+        margin-top: 35px;
+    }
+
+    #rightcol {
+    	float: right;
+	    width: 110px;
+	    margin-right: 30px;
+	    margin-top: 20px;	    
+    } 
+
+    #rightcol .button {
+        border: 1px solid #cfcfcf;
+        font: bold 11px/34px Cabin;
+        width: 110px;
+        height: 40px;
+    }
+
+    #main {
+	    margin-right: 0;
+
+    }
+
+    #leftcol {
+    	float: left;
+        font: bold 16px/28px Cabin;
+        text-align: right;
+        margin-left: 22%;
+        width: 280px;
+        margin-right: 30px;
+    }
+
+    #centercol {   
+	    margin-top: 5px;
+	    margin-right: 1%;
+	    padding-left: 40px;
+    }
+
+    #centercol .content {
+        font: 12px/22px Cabin;
+    }
+
+    #centercol .info {
+        font: bold 12px/43px Cabin;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 999px) {
+    body {
+    	width: 100%;
+    }
+
+    a {
+        margin-right: 13%;    
+    }
+
+    h1 {
+        font: bold 14px/43px Cabin;
+        color: #363636;
+    }
+
+    h2 {
+        font: bold 16px/22px Cabin;
+        color: #363636;
+    }
+
+    #container {
+        margin: 3%;
+        width: 94%;
+        height: 625px;
+    }
+
+    #header .menu-btn {
+	    margin-top: 3%;
+	    margin-left: 3%;
+    }  
+
+    #header .menu-btn img {
+	    width: 50%;
+    } 
+
+    #header .logo {
+        font: bold 20px/34px Cabin;
+	    padding-top: 3%;
+	    margin-left: 35%;
+    }
+
+    #header .menu {	   
+    	width: 100%;
+	    padding-top: 4%;
+	    font: 16px/72px Cabin;
+	    margin-left: 4%;
+	    float: left;
+	    text-align: center;
+	    margin-bottom: 0;
+
+    }
+
+    #showcase .info {
+	    padding-top: 18%;
+	    margin-left: 25%;
+	    margin-bottom: 3%;
+    }
+
+    #showcase .presentation {
+	    padding-left: 0;
+	    margin-left: 17%;
+	    margin-top: 2%;
+    }
+
+    #showcase .presentation img {
+    	width: 90%;
+    	
+    }
+    	
+    #dots {
+        margin-top: 15px;
+        margin-bottom: 10%;
+    }
+
+    #dots li {
+        width: 5px;
+        height: 5px;
+    }
+
+    #dots li.active {
+        width: 10px;
+        height: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #main {
+    	margin-top: 0;
+    	padding-top: 0;
+    }
+
+    #rightcol {
+
+	    width: 110px;
+	    margin-right: 7%;
+	    margin-top: 18%;	    
+    } 
+
+    #rightcol .button {
+        border: 1px solid #cfcfcf;
+        font: bold 11px/34px Cabin;
+        width: 110px;
+        height: 40px;
+    }
+
+    #leftcol {
+        clear: both;
+        text-align: left;
+        margin-left: 13%;
+        width: 100%;
+        margin-right: 15%;
+        margin-bottom: 2%;
+    }
+
+    #centercol {  
+        width: 100%; 
+	    margin-top: 25px;
+	    margin-right: 0;
+	    margin-left: 5%;
+	    clear: both;
+    }
+}
+
+@media (max-width: 749px) {
+    body {
+    	width: 100%;
+    }
+
+    a {
+        margin-right: 7%;    
+    }
+
+    h1 {
+        font: bold 14px/43px Cabin;
+        color: #363636;
+    }
+
+    h2 {
+        font: bold 16px/22px Cabin;
+        color: #363636;
+    }
+
+    #container {
+        margin: 3%;
+        width: 94%;
+        height: 525px;
+    }
+
+    #header .menu-btn {
+	    margin-top: 3%;
+	    margin-left: 3%;
+    }  
+
+    #header .menu-btn img {
+	    width: 50%;
+    } 
+
+    #header .logo {
+        font: bold 20px/34px Cabin;
+	    padding-top: 3%;
+	    margin-left: 35%;
+    }
+
+    #header .menu {	   
+    	width: 100%;
+	    padding-top: 4%;
+	    font: 16px/72px Cabin;
+	    margin-left: 4%;
+	    float: left;
+	    text-align: center;
+	    margin-bottom: 0;
+
+    }
+
+    #showcase .info {
+	    padding-top: 18%;
+	    margin-left: 25%;
+	    margin-bottom: 3%;
+    }
+
+    #showcase .presentation {
+	    padding-left: 0;
+	    margin-left: 17%;
+	    margin-top: 9%;
+    }
+
+    #showcase .presentation img {
+    	width: 90%;
+    	
+    }
+    	
+    #dots {
+        margin-top: 1%;
+        margin-bottom: 8%;
+    }
+
+    #dots li {
+        width: 5px;
+        height: 5px;
+    }
+
+    #dots li.active {
+        width: 10px;
+        height: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #main {
+    	margin-top: 5%;
+    	padding-top: 0;
+    }
+
+    #rightcol {
+    	float: right;
+	    width: 20%;
+	    margin-right: 7%;
+	    padding-top: 45%;	    
+    } 
+
+    #rightcol .button {
+        border: 1px solid #cfcfcf;
+        font: bold 8px/14px Cabin;
+        width: 55px;
+        height: 20px;
+    }
+
+    #leftcol {
+        clear: both;
+        text-align: left;
+        margin-left: 20%;
+        width: 100%;
+        margin-right: 15%;
+        margin-bottom: 2%;
+    }
+
+    #centercol {  
+        width: 100%; 
+	    margin-top: 25px;
+	    margin-right: 0;
+	    margin-left: 5%;
+	    clear: both;
+    }
+}
